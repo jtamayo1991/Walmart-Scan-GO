@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8423445F1FF3F0520003658E /* DemoContenido.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423445E1FF3F0520003658E /* DemoContenido.swift */; };
+		842344611FF415110003658E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842344601FF415110003658E /* Constants.swift */; };
+		842344631FF4174A0003658E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 842344621FF4174A0003658E /* Localizable.strings */; };
 		842FF8A91FE41AB0003973ED /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842FF8A81FE41AB0003973ED /* DemoViewController.swift */; };
 		842FF8AB1FE41E67003973ED /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842FF8AA1FE41E67003973ED /* LoginViewController.swift */; };
 		844AE1321FE401B700C6583B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844AE1311FE401B700C6583B /* AppDelegate.swift */; };
@@ -39,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8423445E1FF3F0520003658E /* DemoContenido.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoContenido.swift; sourceTree = "<group>"; };
+		842344601FF415110003658E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		842344621FF4174A0003658E /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		842FF8A71FE40B86003973ED /* Demo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Demo1.jpg; path = ../../../../../../../../../Desktop/Demo1.jpg; sourceTree = "<group>"; };
 		842FF8A81FE41AB0003973ED /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
 		842FF8AA1FE41E67003973ED /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +92,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8423445C1FF3EF790003658E /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		8423445D1FF3EFC60003658E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8478FA821FE4563900C7F012 /* HomeViewController.swift */,
+				8478FA861FE456A600C7F012 /* LoginRutViewController.swift */,
+				842FF8AA1FE41E67003973ED /* LoginViewController.swift */,
+				8478FA841FE4566000C7F012 /* TerminosCondicionesView.swift */,
+				8423445E1FF3F0520003658E /* DemoContenido.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		842FF8A61FE40B54003973ED /* Demo */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +142,8 @@
 		844AE1301FE401B700C6583B /* walmartScan */ = {
 			isa = PBXGroup;
 			children = (
+				8423445D1FF3EFC60003658E /* Controllers */,
+				8423445C1FF3EF790003658E /* views */,
 				844AE1601FE4048900C6583B /* Assets */,
 				844AE1311FE401B700C6583B /* AppDelegate.swift */,
 				844AE1331FE401B700C6583B /* ViewController.swift */,
@@ -125,10 +152,8 @@
 				844AE1381FE401B700C6583B /* Assets.xcassets */,
 				844AE13A1FE401B700C6583B /* LaunchScreen.storyboard */,
 				844AE13D1FE401B700C6583B /* Info.plist */,
-				842FF8AA1FE41E67003973ED /* LoginViewController.swift */,
-				8478FA821FE4563900C7F012 /* HomeViewController.swift */,
-				8478FA841FE4566000C7F012 /* TerminosCondicionesView.swift */,
-				8478FA861FE456A600C7F012 /* LoginRutViewController.swift */,
+				842344601FF415110003658E /* Constants.swift */,
+				842344621FF4174A0003658E /* Localizable.strings */,
 			);
 			path = walmartScan;
 			sourceTree = "<group>";
@@ -268,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				844AE13C1FE401B700C6583B /* LaunchScreen.storyboard in Resources */,
+				842344631FF4174A0003658E /* Localizable.strings in Resources */,
 				844AE1391FE401B700C6583B /* Assets.xcassets in Resources */,
 				844AE1371FE401B700C6583B /* Main.storyboard in Resources */,
 			);
@@ -300,7 +326,9 @@
 				8478FA871FE456A600C7F012 /* LoginRutViewController.swift in Sources */,
 				844AE1341FE401B700C6583B /* ViewController.swift in Sources */,
 				8478FA851FE4566000C7F012 /* TerminosCondicionesView.swift in Sources */,
+				8423445F1FF3F0520003658E /* DemoContenido.swift in Sources */,
 				844AE1321FE401B700C6583B /* AppDelegate.swift in Sources */,
+				842344611FF415110003658E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
