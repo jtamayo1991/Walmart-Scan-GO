@@ -12,6 +12,12 @@
 		842344631FF4174A0003658E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 842344621FF4174A0003658E /* Localizable.strings */; };
 		842FF8A91FE41AB0003973ED /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842FF8A81FE41AB0003973ED /* DemoViewController.swift */; };
 		842FF8AB1FE41E67003973ED /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842FF8AA1FE41E67003973ED /* LoginViewController.swift */; };
+		844836051FF54A0500AB9677 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844836031FF54A0400AB9677 /* SWRevealViewController.m */; };
+		844836071FF54EC300AB9677 /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844836061FF54EC300AB9677 /* menuViewController.swift */; };
+		844836091FF54F4D00AB9677 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844836081FF54F4D00AB9677 /* MenuCell.swift */; };
+		844836111FF5559000AB9677 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844836101FF5559000AB9677 /* MessageViewController.swift */; };
+		844836131FF5632900AB9677 /* viewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844836121FF5632800AB9677 /* viewController.swift */; };
+		844836151FF5651500AB9677 /* PreguntasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844836141FF5651500AB9677 /* PreguntasViewController.swift */; };
 		844AE1321FE401B700C6583B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844AE1311FE401B700C6583B /* AppDelegate.swift */; };
 		844AE1341FE401B700C6583B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844AE1331FE401B700C6583B /* ViewController.swift */; };
 		844AE1371FE401B700C6583B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844AE1351FE401B700C6583B /* Main.storyboard */; };
@@ -48,6 +54,14 @@
 		842FF8A71FE40B86003973ED /* Demo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Demo1.jpg; path = ../../../../../../../../../Desktop/Demo1.jpg; sourceTree = "<group>"; };
 		842FF8A81FE41AB0003973ED /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
 		842FF8AA1FE41E67003973ED /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		844836021FF54A0300AB9677 /* walmartScan-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "walmartScan-Bridging-Header.h"; sourceTree = "<group>"; };
+		844836031FF54A0400AB9677 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		844836041FF54A0500AB9677 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		844836061FF54EC300AB9677 /* menuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
+		844836081FF54F4D00AB9677 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		844836101FF5559000AB9677 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		844836121FF5632800AB9677 /* viewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewController.swift; sourceTree = "<group>"; };
+		844836141FF5651500AB9677 /* PreguntasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreguntasViewController.swift; sourceTree = "<group>"; };
 		844AE12E1FE401B700C6583B /* walmartScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = walmartScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		844AE1311FE401B700C6583B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		844AE1331FE401B700C6583B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,11 +116,16 @@
 		8423445D1FF3EFC60003658E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				844836061FF54EC300AB9677 /* menuViewController.swift */,
 				8478FA821FE4563900C7F012 /* HomeViewController.swift */,
 				8478FA861FE456A600C7F012 /* LoginRutViewController.swift */,
 				842FF8AA1FE41E67003973ED /* LoginViewController.swift */,
 				8478FA841FE4566000C7F012 /* TerminosCondicionesView.swift */,
 				8423445E1FF3F0520003658E /* DemoContenido.swift */,
+				844836081FF54F4D00AB9677 /* MenuCell.swift */,
+				844836101FF5559000AB9677 /* MessageViewController.swift */,
+				844836121FF5632800AB9677 /* viewController.swift */,
+				844836141FF5651500AB9677 /* PreguntasViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -142,6 +161,8 @@
 		844AE1301FE401B700C6583B /* walmartScan */ = {
 			isa = PBXGroup;
 			children = (
+				844836041FF54A0500AB9677 /* SWRevealViewController.h */,
+				844836031FF54A0400AB9677 /* SWRevealViewController.m */,
 				8423445D1FF3EFC60003658E /* Controllers */,
 				8423445C1FF3EF790003658E /* views */,
 				844AE1601FE4048900C6583B /* Assets */,
@@ -154,6 +175,7 @@
 				844AE13D1FE401B700C6583B /* Info.plist */,
 				842344601FF415110003658E /* Constants.swift */,
 				842344621FF4174A0003658E /* Localizable.strings */,
+				844836021FF54A0300AB9677 /* walmartScan-Bridging-Header.h */,
 			);
 			path = walmartScan;
 			sourceTree = "<group>";
@@ -253,6 +275,7 @@
 				TargetAttributes = {
 					844AE12D1FE401B700C6583B = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					844AE1411FE401B700C6583B = {
@@ -320,13 +343,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844836151FF5651500AB9677 /* PreguntasViewController.swift in Sources */,
+				844836131FF5632900AB9677 /* viewController.swift in Sources */,
 				8478FA831FE4563900C7F012 /* HomeViewController.swift in Sources */,
 				842FF8AB1FE41E67003973ED /* LoginViewController.swift in Sources */,
+				844836091FF54F4D00AB9677 /* MenuCell.swift in Sources */,
 				842FF8A91FE41AB0003973ED /* DemoViewController.swift in Sources */,
 				8478FA871FE456A600C7F012 /* LoginRutViewController.swift in Sources */,
 				844AE1341FE401B700C6583B /* ViewController.swift in Sources */,
+				844836111FF5559000AB9677 /* MessageViewController.swift in Sources */,
+				844836071FF54EC300AB9677 /* menuViewController.swift in Sources */,
 				8478FA851FE4566000C7F012 /* TerminosCondicionesView.swift in Sources */,
 				8423445F1FF3F0520003658E /* DemoContenido.swift in Sources */,
+				844836051FF54A0500AB9677 /* SWRevealViewController.m in Sources */,
 				844AE1321FE401B700C6583B /* AppDelegate.swift in Sources */,
 				842344611FF415110003658E /* Constants.swift in Sources */,
 			);
@@ -494,11 +523,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = walmartScan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bild.walmartScan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "walmartScan/walmartScan-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -508,11 +540,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = walmartScan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bild.walmartScan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "walmartScan/walmartScan-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

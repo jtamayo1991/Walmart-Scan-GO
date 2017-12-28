@@ -14,6 +14,13 @@
 "descripcion_tutorial_slide3" = "Escanea tu código en caja, paga, ¡y \nlisto!";
 
 
+"menu_como" = "¿Cómo funciona?";
+"menu_preg" = "Preguntas frecuentes";
+"menu_escan" = "Escanear productos";
+"menu_tiend" = "Tiendas";
+"menu_close" = "Cerrar sesión";
+
+
 
 "alert_terminos" = "Debes aceptar los términos y condiciones antes de continuar";
 

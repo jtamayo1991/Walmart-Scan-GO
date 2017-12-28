@@ -1,15 +1,16 @@
 //
-//  ViewController.swift
+//  viewController.swift
 //  walmartScan
 //
-//  Created by admin on 12/15/17.
+//  Created by admin on 12/28/17.
 //  Copyright © 2017 admin. All rights reserved.
 //
 
+
 import UIKit
 
-class ViewController: UIViewController {
-
+class viewController: UIViewController {
+    
     @IBOutlet weak var btnMenuButton: UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,12 +29,12 @@ class ViewController: UIViewController {
             
         }
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
 }
 

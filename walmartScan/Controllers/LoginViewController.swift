@@ -58,7 +58,7 @@ class LoginViewController: UIViewController {
         
       
         if UserDefaults.standard.bool(forKey: "terminosOK") {
-            let vc = self.storyboard?.instantiateViewController(withIdentifier: "Home") as! HomeViewController
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "homeInicio") as! SWRevealViewController
             self.present(vc, animated: true, completion: nil)
         }
         else{
