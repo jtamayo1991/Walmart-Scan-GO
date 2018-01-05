@@ -1,0 +1,1015 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0721A1F340FB2A2E9551DD98764B200C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */; };
+		07CFA2FAE3CB3C218442A54486348BEA /* FocusViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F87F0AE15F7AF0CB173158EA8240641 /* FocusViewType.swift */; };
+		265DB38A1F648BDA35689F4753095D06 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A58D15125E7C28C7F9B20B11397D2A /* SwiftyJSON.swift */; };
+		30B67EC05C0F02133FC1ACCA36DC9202 /* BarcodeScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2948501D8CC88048509744C0B539FD08 /* BarcodeScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4ADEBDA19EC248B02493F636DD97A1E2 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD56C18D802EB198746767B8D93A003 /* SwiftyJSON-dummy.m */; };
+		4C4A20E04AC720BFC21F8D63DD50412B /* info@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 572AB7B2EC3549DA320703B7D2AF1018 /* info@3x.png */; };
+		4F3C610CB80397D0BA60EC25F2A5E638 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C8E874FBCAAB00A413C8F8308124C7 /* HeaderView.swift */; };
+		57DD96D05F722890BFFCF43B22BCD79A /* flashOff@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BC46AA41302FD863FB1123D8A3B956F /* flashOff@3x.png */; };
+		5A6C91DE5991AAE40BAE91EF436130DB /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D30B17340951294321FA4AF4F30719 /* State.swift */; };
+		7E0D6F19B302CEFC2082F2DDFB78B7CC /* Localization.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B7ACFB1EACB151474776CDBC8988BF7 /* Localization.bundle */; };
+		8B477B845F1B3C6276D3F217A2D289A2 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B058B3B5D5CC4AC54D9BDB32F98B98 /* InfoView.swift */; };
+		8E66F858A67C972CA8042EB348017D34 /* flashOn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0E4AF6D74B321976699B191256F5D1C /* flashOn@3x.png */; };
+		8FECB8533D5C824DD417BB4E7153E10A /* BarcodeScanner.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2141542D9A21C82B2CA396EDFE08E8D1 /* BarcodeScanner.bundle */; };
+		A37A9D29762FCB5E98E41F5BAEF38966 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C4BD65EEF247D4C8A723C0F18B326C /* UIKit.framework */; };
+		A41C3626C0E4EA206AB777EA1EE6F5AE /* TorchMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3A040E0B5E02EDAC549AC4B3FF6B04 /* TorchMode.swift */; };
+		AA46F80C33D9986E37EE40F8B4DF24AF /* BarcodeScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2498C5A4BAA0840A03567EC189E6CB /* BarcodeScanner-dummy.m */; };
+		B0204633C1C75E353078A4B21BB1C700 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC8A468C8EA56A4C6FF59E469C38F74 /* Config.swift */; };
+		B7200D9BCE24BF7995BB70FB766B22BB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD3A287BB87F4D3C474EC576926A0F89 /* AVFoundation.framework */; };
+		B7DCF7E3A3F6C3EFD2998CE0863DB5D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */; };
+		BEDEBD147B53B81EEBB9B006359285FC /* Pods-walmartScan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B8B697359A0776C84D558135F9DDB3 /* Pods-walmartScan-dummy.m */; };
+		C6642F47B0E5290540998AFD15BE2B6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */; };
+		D1A53A1829D2EAB6973B67A23764FF20 /* BarcodeScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3E1E2F3A0EAF1D230FAE20BCD9112 /* BarcodeScannerController.swift */; };
+		D5CB721D02C1D6963C3B9476575B70CA /* Pods-walmartScan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F04637B72B0D50D00003E41F6BD42CD7 /* Pods-walmartScan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E38019458C29F3EA5DDDE661DB5CBD7C /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8631EB24CC240C6B78F64B2A1410FC46 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E81F711E021B4DA32ED95907F67D2928 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D3ABBA5DFE6CCC1AF5EFA03D30C4392 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46A722A8BB03F8BA8B6332BED16F2DB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41AB57C778C3649C78485C9E51311DD2;
+			remoteInfo = "BarcodeScanner-BarcodeScanner";
+		};
+		62D19AAC39641C38DAFD09FE2B27719A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19E6534ABB2C9C66491D60CEEB16712C;
+			remoteInfo = BarcodeScanner;
+		};
+		AD8A68F62DA6B4794598B0F28A8ECD20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5119E47C605123733F71B0008257EBB;
+			remoteInfo = SwiftyJSON;
+		};
+		EB1E7A8207FDF919173CE80C72C71524 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7546A3D3D2027B77D96BBDDF19EAD866;
+			remoteInfo = "BarcodeScanner-Localization";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F3E1E2F3A0EAF1D230FAE20BCD9112 /* BarcodeScannerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarcodeScannerController.swift; path = Sources/BarcodeScannerController.swift; sourceTree = "<group>"; };
+		08F15D8DF2AB41A32B9B9D670CC4A60A /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		1BD56C18D802EB198746767B8D93A003 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		2141542D9A21C82B2CA396EDFE08E8D1 /* BarcodeScanner.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BarcodeScanner.bundle; path = BarcodeScanner.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		2948501D8CC88048509744C0B539FD08 /* BarcodeScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BarcodeScanner-umbrella.h"; sourceTree = "<group>"; };
+		2EC67F146BDFA546521375A9B84583B8 /* BarcodeScanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BarcodeScanner.xcconfig; sourceTree = "<group>"; };
+		3D2498C5A4BAA0840A03567EC189E6CB /* BarcodeScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BarcodeScanner-dummy.m"; sourceTree = "<group>"; };
+		44A58D15125E7C28C7F9B20B11397D2A /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		46B058B3B5D5CC4AC54D9BDB32F98B98 /* InfoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InfoView.swift; path = Sources/InfoView.swift; sourceTree = "<group>"; };
+		492ED2CD4FF5669C53FFD4DEE231BA3C /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4BC46AA41302FD863FB1123D8A3B956F /* flashOff@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "flashOff@3x.png"; path = "Images/flashOff@3x.png"; sourceTree = "<group>"; };
+		4BC8A468C8EA56A4C6FF59E469C38F74 /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = Sources/Config.swift; sourceTree = "<group>"; };
+		572AB7B2EC3549DA320703B7D2AF1018 /* info@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "info@3x.png"; path = "Images/info@3x.png"; sourceTree = "<group>"; };
+		586D97AEB6D06E44C524BFA9EFC8EE19 /* BarcodeScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BarcodeScanner.framework; path = BarcodeScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F2D9AEF99C530301C5E40222D788AC /* BarcodeScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BarcodeScanner.modulemap; sourceTree = "<group>"; };
+		63C4BD65EEF247D4C8A723C0F18B326C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		69DDD8BADB7B55C4652805FD7D2F297E /* Pods-walmartScan-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-walmartScan-frameworks.sh"; sourceTree = "<group>"; };
+		793D5A7600C9F8E32CBF743FA982B527 /* ResourceBundle-BarcodeScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BarcodeScanner-Info.plist"; sourceTree = "<group>"; };
+		7B3A040E0B5E02EDAC549AC4B3FF6B04 /* TorchMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TorchMode.swift; path = Sources/TorchMode.swift; sourceTree = "<group>"; };
+		7F87F0AE15F7AF0CB173158EA8240641 /* FocusViewType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FocusViewType.swift; path = Sources/FocusViewType.swift; sourceTree = "<group>"; };
+		845EE8D9A856492A1D14EE2D916F1990 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8631EB24CC240C6B78F64B2A1410FC46 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		864B08C517E3265FE30A121F9F047007 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B7ACFB1EACB151474776CDBC8988BF7 /* Localization.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Localization.bundle; path = Localization.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C46B4C617C93DF15150E487CAC1138B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8C5B7FD6852714363F979830AB6C0C /* Pods-walmartScan-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-walmartScan-resources.sh"; sourceTree = "<group>"; };
+		A9B8B697359A0776C84D558135F9DDB3 /* Pods-walmartScan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-walmartScan-dummy.m"; sourceTree = "<group>"; };
+		AF194696CD13D6FE045337FF4E9D5F23 /* Pods-walmartScan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-walmartScan.release.xcconfig"; sourceTree = "<group>"; };
+		B90FBB5C0BC68134393B9F394380E675 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BD179FADC0AB7AA7B341D24C8A9F6414 /* ResourceBundle-Localization-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Localization-Info.plist"; sourceTree = "<group>"; };
+		BF7F67ACEDB5D61318EBB0C0552D838E /* BarcodeScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BarcodeScanner-prefix.pch"; sourceTree = "<group>"; };
+		C0A03113334B010FF3FE8814A20B23C5 /* Pods-walmartScan.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-walmartScan.modulemap"; sourceTree = "<group>"; };
+		C1C8E874FBCAAB00A413C8F8308124C7 /* HeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeaderView.swift; path = Sources/HeaderView.swift; sourceTree = "<group>"; };
+		CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0D30B17340951294321FA4AF4F30719 /* State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = State.swift; path = Sources/State.swift; sourceTree = "<group>"; };
+		E22DCADB73E6EB5EE308A7C30013F700 /* Pods-walmartScan-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-walmartScan-acknowledgements.plist"; sourceTree = "<group>"; };
+		E7AAC7CE61CC9EF6A465C139A8F19891 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7C13AB1A3EC36016DDBF66FEC86CE8E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E92C6B305C691133017668F8ED822F46 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		F04637B72B0D50D00003E41F6BD42CD7 /* Pods-walmartScan-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-walmartScan-umbrella.h"; sourceTree = "<group>"; };
+		F0E4AF6D74B321976699B191256F5D1C /* flashOn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "flashOn@3x.png"; path = "Images/flashOn@3x.png"; sourceTree = "<group>"; };
+		F23B3E11886D0C35A16A458BE9C7D3A6 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F496F134731478CA591F19A9837D2E10 /* Pods_walmartScan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_walmartScan.framework; path = "Pods-walmartScan.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89FB39F081F1A41F2044CD9EE17761F /* Pods-walmartScan-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-walmartScan-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC9C4B31B4402A386139C89CA7ABFD68 /* Pods-walmartScan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-walmartScan.debug.xcconfig"; sourceTree = "<group>"; };
+		FD3A287BB87F4D3C474EC576926A0F89 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0266EE707AC72F25EDBBC2E85675EA7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7200D9BCE24BF7995BB70FB766B22BB /* AVFoundation.framework in Frameworks */,
+				0721A1F340FB2A2E9551DD98764B200C /* Foundation.framework in Frameworks */,
+				A37A9D29762FCB5E98E41F5BAEF38966 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E325BDC2B1362BF6ABD41D8E4E2806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6642F47B0E5290540998AFD15BE2B6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6DA6199B5C55E612A82C310D534D115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E912000ED78AAE6A302EEE52D8878CF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDE269C75EBC749502AB4D9C3671A4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7DCF7E3A3F6C3EFD2998CE0863DB5D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08C813D215D336E12D42270851A3310F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2141542D9A21C82B2CA396EDFE08E8D1 /* BarcodeScanner.bundle */,
+				586D97AEB6D06E44C524BFA9EFC8EE19 /* BarcodeScanner.framework */,
+				9B7ACFB1EACB151474776CDBC8988BF7 /* Localization.bundle */,
+				F496F134731478CA591F19A9837D2E10 /* Pods_walmartScan.framework */,
+				845EE8D9A856492A1D14EE2D916F1990 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				715827B6A84C2549CD0FBA09A28FA485 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42E588A90A19477B50BF90E496121A6F /* BarcodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				04F3E1E2F3A0EAF1D230FAE20BCD9112 /* BarcodeScannerController.swift */,
+				4BC8A468C8EA56A4C6FF59E469C38F74 /* Config.swift */,
+				7F87F0AE15F7AF0CB173158EA8240641 /* FocusViewType.swift */,
+				C1C8E874FBCAAB00A413C8F8308124C7 /* HeaderView.swift */,
+				46B058B3B5D5CC4AC54D9BDB32F98B98 /* InfoView.swift */,
+				D0D30B17340951294321FA4AF4F30719 /* State.swift */,
+				7B3A040E0B5E02EDAC549AC4B3FF6B04 /* TorchMode.swift */,
+				95881D72E900D858FF9C156FB18B5825 /* Resources */,
+				6EAF6E2A04EE0804F2F8E368F31C8E0E /* Support Files */,
+			);
+			name = BarcodeScanner;
+			path = BarcodeScanner;
+			sourceTree = "<group>";
+		};
+		6EAF6E2A04EE0804F2F8E368F31C8E0E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61F2D9AEF99C530301C5E40222D788AC /* BarcodeScanner.modulemap */,
+				2EC67F146BDFA546521375A9B84583B8 /* BarcodeScanner.xcconfig */,
+				3D2498C5A4BAA0840A03567EC189E6CB /* BarcodeScanner-dummy.m */,
+				BF7F67ACEDB5D61318EBB0C0552D838E /* BarcodeScanner-prefix.pch */,
+				2948501D8CC88048509744C0B539FD08 /* BarcodeScanner-umbrella.h */,
+				9C46B4C617C93DF15150E487CAC1138B /* Info.plist */,
+				793D5A7600C9F8E32CBF743FA982B527 /* ResourceBundle-BarcodeScanner-Info.plist */,
+				BD179FADC0AB7AA7B341D24C8A9F6414 /* ResourceBundle-Localization-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BarcodeScanner";
+			sourceTree = "<group>";
+		};
+		712D0222B109347C437279A0D0AF5B6A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7AAC7CE61CC9EF6A465C139A8F19891 /* Info.plist */,
+				864B08C517E3265FE30A121F9F047007 /* SwiftyJSON.modulemap */,
+				E92C6B305C691133017668F8ED822F46 /* SwiftyJSON.xcconfig */,
+				1BD56C18D802EB198746767B8D93A003 /* SwiftyJSON-dummy.m */,
+				08F15D8DF2AB41A32B9B9D670CC4A60A /* SwiftyJSON-prefix.pch */,
+				8631EB24CC240C6B78F64B2A1410FC46 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		715827B6A84C2549CD0FBA09A28FA485 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FD3A287BB87F4D3C474EC576926A0F89 /* AVFoundation.framework */,
+				CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */,
+				63C4BD65EEF247D4C8A723C0F18B326C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		71BA03AA7EBAA8B0F98A658ECE2FCCA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42E588A90A19477B50BF90E496121A6F /* BarcodeScanner */,
+				8E66574939DBB147F8BDBFBF0E59E707 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				71BA03AA7EBAA8B0F98A658ECE2FCCA6 /* Pods */,
+				08C813D215D336E12D42270851A3310F /* Products */,
+				D6F9437F2F8A84B122EFCF0B336B7593 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8E66574939DBB147F8BDBFBF0E59E707 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				44A58D15125E7C28C7F9B20B11397D2A /* SwiftyJSON.swift */,
+				712D0222B109347C437279A0D0AF5B6A /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		95881D72E900D858FF9C156FB18B5825 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4BC46AA41302FD863FB1123D8A3B956F /* flashOff@3x.png */,
+				F0E4AF6D74B321976699B191256F5D1C /* flashOn@3x.png */,
+				572AB7B2EC3549DA320703B7D2AF1018 /* info@3x.png */,
+				9D3ABBA5DFE6CCC1AF5EFA03D30C4392 /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B8A0EAD4BB1767FE8888AB97252FF56E /* Pods-walmartScan */ = {
+			isa = PBXGroup;
+			children = (
+				E7C13AB1A3EC36016DDBF66FEC86CE8E /* Info.plist */,
+				C0A03113334B010FF3FE8814A20B23C5 /* Pods-walmartScan.modulemap */,
+				F89FB39F081F1A41F2044CD9EE17761F /* Pods-walmartScan-acknowledgements.markdown */,
+				E22DCADB73E6EB5EE308A7C30013F700 /* Pods-walmartScan-acknowledgements.plist */,
+				A9B8B697359A0776C84D558135F9DDB3 /* Pods-walmartScan-dummy.m */,
+				69DDD8BADB7B55C4652805FD7D2F297E /* Pods-walmartScan-frameworks.sh */,
+				9F8C5B7FD6852714363F979830AB6C0C /* Pods-walmartScan-resources.sh */,
+				F04637B72B0D50D00003E41F6BD42CD7 /* Pods-walmartScan-umbrella.h */,
+				FC9C4B31B4402A386139C89CA7ABFD68 /* Pods-walmartScan.debug.xcconfig */,
+				AF194696CD13D6FE045337FF4E9D5F23 /* Pods-walmartScan.release.xcconfig */,
+			);
+			name = "Pods-walmartScan";
+			path = "Target Support Files/Pods-walmartScan";
+			sourceTree = "<group>";
+		};
+		D6F9437F2F8A84B122EFCF0B336B7593 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8A0EAD4BB1767FE8888AB97252FF56E /* Pods-walmartScan */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		40F75E03B9DFBF04D06405DA2D3DE577 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B67EC05C0F02133FC1ACCA36DC9202 /* BarcodeScanner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7252C6A670412E56FF5650C6EE739506 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E38019458C29F3EA5DDDE661DB5CBD7C /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9988C333BD142E06E6E917D7501732 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5CB721D02C1D6963C3B9476575B70CA /* Pods-walmartScan-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19E6534ABB2C9C66491D60CEEB16712C /* BarcodeScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34148F93A604303381BF9C7EF0018A69 /* Build configuration list for PBXNativeTarget "BarcodeScanner" */;
+			buildPhases = (
+				DEAE142E694351E59B28D0B0AB840FF4 /* Sources */,
+				0266EE707AC72F25EDBBC2E85675EA7C /* Frameworks */,
+				65B3910273305BADCB6B3823118EB790 /* Resources */,
+				40F75E03B9DFBF04D06405DA2D3DE577 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4494DD132CB1A81707909F303E812EA8 /* PBXTargetDependency */,
+				0205FF451E61B245CCAA3C3EFB540707 /* PBXTargetDependency */,
+			);
+			name = BarcodeScanner;
+			productName = BarcodeScanner;
+			productReference = 586D97AEB6D06E44C524BFA9EFC8EE19 /* BarcodeScanner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2A5F72C2C17DDD2D5C595DCB8E17D574 /* Pods-walmartScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1BB1843F94591C2A6250E416245244E /* Build configuration list for PBXNativeTarget "Pods-walmartScan" */;
+			buildPhases = (
+				0806E6FFC374B2F3C4625849A677E828 /* Sources */,
+				19E325BDC2B1362BF6ABD41D8E4E2806 /* Frameworks */,
+				CD9988C333BD142E06E6E917D7501732 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				120CA53221F37EF117BBD81718E378C8 /* PBXTargetDependency */,
+				D5449D2E28D25213B001858E911E2953 /* PBXTargetDependency */,
+			);
+			name = "Pods-walmartScan";
+			productName = "Pods-walmartScan";
+			productReference = F496F134731478CA591F19A9837D2E10 /* Pods_walmartScan.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		41AB57C778C3649C78485C9E51311DD2 /* BarcodeScanner-BarcodeScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19973854906DFA57FE48F55ECEC1E9D3 /* Build configuration list for PBXNativeTarget "BarcodeScanner-BarcodeScanner" */;
+			buildPhases = (
+				BA06814C1234A120BFEEA5BE3C1E2894 /* Sources */,
+				E912000ED78AAE6A302EEE52D8878CF2 /* Frameworks */,
+				1630787EDBB7C96B6E74728C4E85CC89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BarcodeScanner-BarcodeScanner";
+			productName = "BarcodeScanner-BarcodeScanner";
+			productReference = 2141542D9A21C82B2CA396EDFE08E8D1 /* BarcodeScanner.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7546A3D3D2027B77D96BBDDF19EAD866 /* BarcodeScanner-Localization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 891A695D008364DAB210EADF3DD85E3A /* Build configuration list for PBXNativeTarget "BarcodeScanner-Localization" */;
+			buildPhases = (
+				49349BA683BB0005D15BF537430D999C /* Sources */,
+				E6DA6199B5C55E612A82C310D534D115 /* Frameworks */,
+				F0FDD235068C6713EAEE87FE0580C94E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BarcodeScanner-Localization";
+			productName = "BarcodeScanner-Localization";
+			productReference = 9B7ACFB1EACB151474776CDBC8988BF7 /* Localization.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C5119E47C605123733F71B0008257EBB /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17FE472C68F1BF753A0E03127F78B756 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				4021D220BBD990BCABA5959680E3BCBF /* Sources */,
+				ECDE269C75EBC749502AB4D9C3671A4A /* Frameworks */,
+				7252C6A670412E56FF5650C6EE739506 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 845EE8D9A856492A1D14EE2D916F1990 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 08C813D215D336E12D42270851A3310F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19E6534ABB2C9C66491D60CEEB16712C /* BarcodeScanner */,
+				41AB57C778C3649C78485C9E51311DD2 /* BarcodeScanner-BarcodeScanner */,
+				7546A3D3D2027B77D96BBDDF19EAD866 /* BarcodeScanner-Localization */,
+				2A5F72C2C17DDD2D5C595DCB8E17D574 /* Pods-walmartScan */,
+				C5119E47C605123733F71B0008257EBB /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1630787EDBB7C96B6E74728C4E85CC89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DD96D05F722890BFFCF43B22BCD79A /* flashOff@3x.png in Resources */,
+				8E66F858A67C972CA8042EB348017D34 /* flashOn@3x.png in Resources */,
+				4C4A20E04AC720BFC21F8D63DD50412B /* info@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B3910273305BADCB6B3823118EB790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FECB8533D5C824DD417BB4E7153E10A /* BarcodeScanner.bundle in Resources */,
+				7E0D6F19B302CEFC2082F2DDFB78B7CC /* Localization.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0FDD235068C6713EAEE87FE0580C94E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81F711E021B4DA32ED95907F67D2928 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0806E6FFC374B2F3C4625849A677E828 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEDEBD147B53B81EEBB9B006359285FC /* Pods-walmartScan-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4021D220BBD990BCABA5959680E3BCBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ADEBDA19EC248B02493F636DD97A1E2 /* SwiftyJSON-dummy.m in Sources */,
+				265DB38A1F648BDA35689F4753095D06 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49349BA683BB0005D15BF537430D999C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA06814C1234A120BFEEA5BE3C1E2894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAE142E694351E59B28D0B0AB840FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA46F80C33D9986E37EE40F8B4DF24AF /* BarcodeScanner-dummy.m in Sources */,
+				D1A53A1829D2EAB6973B67A23764FF20 /* BarcodeScannerController.swift in Sources */,
+				B0204633C1C75E353078A4B21BB1C700 /* Config.swift in Sources */,
+				07CFA2FAE3CB3C218442A54486348BEA /* FocusViewType.swift in Sources */,
+				4F3C610CB80397D0BA60EC25F2A5E638 /* HeaderView.swift in Sources */,
+				8B477B845F1B3C6276D3F217A2D289A2 /* InfoView.swift in Sources */,
+				5A6C91DE5991AAE40BAE91EF436130DB /* State.swift in Sources */,
+				A41C3626C0E4EA206AB777EA1EE6F5AE /* TorchMode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0205FF451E61B245CCAA3C3EFB540707 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BarcodeScanner-Localization";
+			target = 7546A3D3D2027B77D96BBDDF19EAD866 /* BarcodeScanner-Localization */;
+			targetProxy = EB1E7A8207FDF919173CE80C72C71524 /* PBXContainerItemProxy */;
+		};
+		120CA53221F37EF117BBD81718E378C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BarcodeScanner;
+			target = 19E6534ABB2C9C66491D60CEEB16712C /* BarcodeScanner */;
+			targetProxy = 62D19AAC39641C38DAFD09FE2B27719A /* PBXContainerItemProxy */;
+		};
+		4494DD132CB1A81707909F303E812EA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BarcodeScanner-BarcodeScanner";
+			target = 41AB57C778C3649C78485C9E51311DD2 /* BarcodeScanner-BarcodeScanner */;
+			targetProxy = 46A722A8BB03F8BA8B6332BED16F2DB6 /* PBXContainerItemProxy */;
+		};
+		D5449D2E28D25213B001858E911E2953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = C5119E47C605123733F71B0008257EBB /* SwiftyJSON */;
+			targetProxy = AD8A68F62DA6B4794598B0F28A8ECD20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D3ABBA5DFE6CCC1AF5EFA03D30C4392 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B90FBB5C0BC68134393B9F394380E675 /* Localizable.strings */,
+				F23B3E11886D0C35A16A458BE9C7D3A6 /* Localizable.strings */,
+				492ED2CD4FF5669C53FFD4DEE231BA3C /* Localizable.strings */,
+			);
+			name = Localizable.strings;
+			path = Localization;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E6B7C00D0A6CA890EA9670B470CC793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EC67F146BDFA546521375A9B84583B8 /* BarcodeScanner.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BarcodeScanner";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/ResourceBundle-Localization-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = Localization;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		38B53E12CB53B6E20638B306F9A00949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EC67F146BDFA546521375A9B84583B8 /* BarcodeScanner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BarcodeScanner/BarcodeScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BarcodeScanner/BarcodeScanner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BarcodeScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3BC53A6EB3DE1E189E22D0B8D4F13D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EC67F146BDFA546521375A9B84583B8 /* BarcodeScanner.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BarcodeScanner";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/ResourceBundle-Localization-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = Localization;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		6A9020A51C2DC7EDB611AD167CC7C0F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC9C4B31B4402A386139C89CA7ABFD68 /* Pods-walmartScan.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-walmartScan/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-walmartScan/Pods-walmartScan.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_walmartScan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C507D4929E26B65D27A1577069EF265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF194696CD13D6FE045337FF4E9D5F23 /* Pods-walmartScan.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-walmartScan/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-walmartScan/Pods-walmartScan.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_walmartScan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73065711419E9B9B4B4745A163A0C9F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E92C6B305C691133017668F8ED822F46 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7546B3B72CB04F10B1FEC160367B6848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EC67F146BDFA546521375A9B84583B8 /* BarcodeScanner.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BarcodeScanner";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/ResourceBundle-BarcodeScanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = BarcodeScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B6C655172B94279289CC223E52241C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EC67F146BDFA546521375A9B84583B8 /* BarcodeScanner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BarcodeScanner/BarcodeScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BarcodeScanner/BarcodeScanner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BarcodeScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C87A779C5751122C3830B0516B100DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EC67F146BDFA546521375A9B84583B8 /* BarcodeScanner.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BarcodeScanner";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/ResourceBundle-BarcodeScanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = BarcodeScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		DB094A08D16F662236D90463A9C42331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E92C6B305C691133017668F8ED822F46 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF26A3C5B6EDA309192C6025F703DE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17FE472C68F1BF753A0E03127F78B756 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB094A08D16F662236D90463A9C42331 /* Debug */,
+				73065711419E9B9B4B4745A163A0C9F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19973854906DFA57FE48F55ECEC1E9D3 /* Build configuration list for PBXNativeTarget "BarcodeScanner-BarcodeScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87A779C5751122C3830B0516B100DD9 /* Debug */,
+				7546B3B72CB04F10B1FEC160367B6848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF26A3C5B6EDA309192C6025F703DE0A /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34148F93A604303381BF9C7EF0018A69 /* Build configuration list for PBXNativeTarget "BarcodeScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38B53E12CB53B6E20638B306F9A00949 /* Debug */,
+				B6C655172B94279289CC223E52241C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		891A695D008364DAB210EADF3DD85E3A /* Build configuration list for PBXNativeTarget "BarcodeScanner-Localization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6B7C00D0A6CA890EA9670B470CC793 /* Debug */,
+				3BC53A6EB3DE1E189E22D0B8D4F13D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1BB1843F94591C2A6250E416245244E /* Build configuration list for PBXNativeTarget "Pods-walmartScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A9020A51C2DC7EDB611AD167CC7C0F0 /* Debug */,
+				6C507D4929E26B65D27A1577069EF265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -13,6 +13,11 @@ import UIKit
 class LoginViewController: UIViewController {
     
     @IBOutlet weak var btnCheckTerm: UIButton!
+    
+    @IBOutlet weak var nombre: UITextField!
+    
+    @IBOutlet weak var apellido: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         btnCheckTerm.setBackgroundImage(UIImage(named: "checkFalse"), for: .normal)
@@ -58,8 +63,19 @@ class LoginViewController: UIViewController {
         
       
         if UserDefaults.standard.bool(forKey: "terminosOK") {
-            let vc = self.storyboard?.instantiateViewController(withIdentifier: "homeInicio") as! SWRevealViewController
-            self.present(vc, animated: true, completion: nil)
+            if ((nombre.text == "") || (apellido.text == "")) {
+                let alert = UIAlertController(title: "¡Oops!", message: NSLocalizedString("alert_NombreApell", comment: "alert_NombreApell"), preferredStyle: UIAlertControllerStyle.alert)
+                alert.addAction(UIAlertAction(title: "ACEPTAR", style: UIAlertActionStyle.default, handler: nil))
+                self.present(alert, animated: true, completion: nil)
+            }else{
+                
+                UserDefaults.standard.set(nombre.text, forKey: "name")
+                UserDefaults.standard.set(apellido.text, forKey: "secondName")
+
+                let vc = self.storyboard?.instantiateViewController(withIdentifier: "homeInicio") as! SWRevealViewController
+                self.present(vc, animated: true, completion: nil)
+            }
+            
         }
         else{
             showAlert()

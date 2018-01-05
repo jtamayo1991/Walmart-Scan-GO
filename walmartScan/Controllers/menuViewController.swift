@@ -8,17 +8,20 @@
 
 import UIKit
 
-class menuViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+class MenuViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
 
     @IBOutlet weak var tblTableView: UITableView!
     @IBOutlet weak var imgProfile: UIImageView!
+    @IBOutlet weak var lblSaludoMenu: UILabel!
     
     var ManuNameArray:Array = [String]()
     var iconArray:Array = [UIImage]()
     override func viewDidLoad() {
         super.viewDidLoad()
-        ManuNameArray = NSArray(objects: NSLocalizedString("menu_como", comment: "menu_como"),NSLocalizedString("menu_preg", comment: "menu_preg"),NSLocalizedString("menu_escan", comment: "menu_escan"),NSLocalizedString("menu_tiend", comment: "menu_tiend")) as! Array<String>//["Home","Message","Map","Setting"]
-        iconArray = [UIImage(named:"menu_como")!,UIImage(named:"menu_preguntas")!,UIImage(named:"menu_escanear")!,UIImage(named:"home")!]
+        ManuNameArray = NSArray(objects: NSLocalizedString("menu_como", comment: "menu_como"),NSLocalizedString("menu_preg", comment: "menu_preg"),NSLocalizedString("menu_escan", comment: "menu_escan"),NSLocalizedString("menu_tiend", comment: "menu_tiend"),NSLocalizedString("menu_close", comment: "menu_close")) as! Array<String>//["Home","Message","Map","Setting"]
+        iconArray = [UIImage(named:"menu_como")!,UIImage(named:"menu_preguntas")!,UIImage(named:"menu_escanear")!,UIImage(named:"menu_como")!,UIImage(named:"menu_como")!]
+        
+        lblSaludoMenu.text = "               Hola  \(UserDefaults.standard.value(forKey: "name")!  ) "
         
         //imgProfile.layer.borderWidth = 2
         //imgProfile.layer.borderColor = UIColor.green.cgColor
@@ -53,14 +56,27 @@ class menuViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         
         let cell:MenuCell = tableView.cellForRow(at: indexPath) as! MenuCell
         print(cell.lblMenuname.text!)
-        if cell.lblMenuname.text! == "Home"
+        if cell.lblMenuname.text! == NSLocalizedString("menu_como", comment: "menu_como")
         {
             print("Home Tapped")
-            let mainstoryboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-            let newViewcontroller = mainstoryboard.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+           /* let mainstoryboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let newViewcontroller = mainstoryboard.instantiateViewController(withIdentifier: "Demo") as! DemoViewController
             let newFrontController = UINavigationController.init(rootViewController: newViewcontroller)
+            UserDefaults.standard.set(true, forKey: "DemoFromMenu") //Bool
+
+            revealviewcontroller.pushFrontViewController(newFrontController, animated: true)*/
             
-            revealviewcontroller.pushFrontViewController(newFrontController, animated: true)
+           
+          //  NotificationCenter.default.post(name: .peru, object: nil)
+
+
+            //kmcecemlvemlvkmelvelgve
+          //  self.revealViewController().rearViewRevealWidth = 30
+            UserDefaults.standard.set(true, forKey: "DemoFromMenu")
+            
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "Demo") as! DemoViewController
+            self.present(vc, animated: true, completion: nil)
+            
             
         }
         if cell.lblMenuname.text! == "Message"
@@ -72,17 +88,19 @@ class menuViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
             
             revealviewcontroller.pushFrontViewController(newFrontController, animated: true)
         }
-        if cell.lblMenuname.text! == "Map"
+        if cell.lblMenuname.text! == NSLocalizedString("menu_preg", comment: "menu_preg")
         {
             let newViewcontrolleree = mainstoryboard.instantiateViewController(withIdentifier: "PreguntasViewController") as! PreguntasViewController
-           // let newFrontControllere = UINavigationController.init(rootViewController: newViewcontrolleree)
+            let newFrontControllere = UINavigationController.init(rootViewController: newViewcontrolleree)
             
-            //revealviewcontroller.pushFrontViewController(newFrontControllere, animated: true)        }
+            revealviewcontroller.pushFrontViewController(newFrontControllere, animated: true)
+            
+        }
         if cell.lblMenuname.text! == "Setting"
         {
            print("setting Tapped")
         }
     }
    
-    }
+    
 }

@@ -1,0 +1,6 @@
+framework module Pods_walmartScan {
+  umbrella header "Pods-walmartScan-umbrella.h"
+
+  export *
+  module * { export * }
+}

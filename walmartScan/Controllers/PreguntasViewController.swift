@@ -8,15 +8,17 @@
 
 import UIKit
 
-class PreguntasViewController: UIViewController{
+class PreguntasViewController: UIViewController,UINavigationBarDelegate,UINavigationControllerDelegate {
     
+    @IBOutlet weak var textDescPreguntas: UITextView!
     @IBOutlet weak var menu: UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        navigationController?.navigationBar.barTintColor = UIColor(red: 70.0/255.0, green: 124.0/255.0, blue: 189.0/255.0, alpha: 1.0)
+
         // Do any additional setup after loading the view.
-        
-       // revealViewController().rearViewRevealWidth = 200
+         textDescPreguntas.text = NSLocalizedString("text_preguntas", comment: "alert_terminos")
+       // revealViewController().rearViewRevealWidth = 300
         menu.target = revealViewController()
         menu.action = #selector(SWRevealViewController.revealToggle(_:))
     }

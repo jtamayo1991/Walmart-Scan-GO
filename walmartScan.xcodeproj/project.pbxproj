@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D9DEA244FA103E5801B728D /* Pods_walmartScan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B3B924C7DAFF58AAF91664 /* Pods_walmartScan.framework */; };
 		8423445F1FF3F0520003658E /* DemoContenido.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423445E1FF3F0520003658E /* DemoContenido.swift */; };
 		842344611FF415110003658E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842344601FF415110003658E /* Constants.swift */; };
 		842344631FF4174A0003658E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 842344621FF4174A0003658E /* Localizable.strings */; };
 		842FF8A91FE41AB0003973ED /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842FF8A81FE41AB0003973ED /* DemoViewController.swift */; };
 		842FF8AB1FE41E67003973ED /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842FF8AA1FE41E67003973ED /* LoginViewController.swift */; };
 		844836051FF54A0500AB9677 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844836031FF54A0400AB9677 /* SWRevealViewController.m */; };
-		844836071FF54EC300AB9677 /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844836061FF54EC300AB9677 /* menuViewController.swift */; };
+		844836071FF54EC300AB9677 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844836061FF54EC300AB9677 /* MenuViewController.swift */; };
 		844836091FF54F4D00AB9677 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844836081FF54F4D00AB9677 /* MenuCell.swift */; };
 		844836111FF5559000AB9677 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844836101FF5559000AB9677 /* MessageViewController.swift */; };
-		844836131FF5632900AB9677 /* viewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844836121FF5632800AB9677 /* viewController.swift */; };
+		844836131FF5632900AB9677 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844836121FF5632800AB9677 /* HomeController.swift */; };
 		844836151FF5651500AB9677 /* PreguntasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844836141FF5651500AB9677 /* PreguntasViewController.swift */; };
 		844AE1321FE401B700C6583B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844AE1311FE401B700C6583B /* AppDelegate.swift */; };
 		844AE1341FE401B700C6583B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844AE1331FE401B700C6583B /* ViewController.swift */; };
@@ -28,6 +29,8 @@
 		8478FA831FE4563900C7F012 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478FA821FE4563900C7F012 /* HomeViewController.swift */; };
 		8478FA851FE4566000C7F012 /* TerminosCondicionesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478FA841FE4566000C7F012 /* TerminosCondicionesView.swift */; };
 		8478FA871FE456A600C7F012 /* LoginRutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478FA861FE456A600C7F012 /* LoginRutViewController.swift */; };
+		84F236EB1FFEA521008F5026 /* ROBarcodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F236EA1FFEA521008F5026 /* ROBarcodeScannerViewController.swift */; };
+		84F236EE1FFEACB3008F5026 /* ScannViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F236ED1FFEACB3008F5026 /* ScannViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,10 +60,10 @@
 		844836021FF54A0300AB9677 /* walmartScan-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "walmartScan-Bridging-Header.h"; sourceTree = "<group>"; };
 		844836031FF54A0400AB9677 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		844836041FF54A0500AB9677 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
-		844836061FF54EC300AB9677 /* menuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
+		844836061FF54EC300AB9677 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		844836081FF54F4D00AB9677 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 		844836101FF5559000AB9677 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
-		844836121FF5632800AB9677 /* viewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewController.swift; sourceTree = "<group>"; };
+		844836121FF5632800AB9677 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		844836141FF5651500AB9677 /* PreguntasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreguntasViewController.swift; sourceTree = "<group>"; };
 		844AE12E1FE401B700C6583B /* walmartScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = walmartScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		844AE1311FE401B700C6583B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +82,12 @@
 		8478FA821FE4563900C7F012 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8478FA841FE4566000C7F012 /* TerminosCondicionesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminosCondicionesView.swift; sourceTree = "<group>"; };
 		8478FA861FE456A600C7F012 /* LoginRutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRutViewController.swift; sourceTree = "<group>"; };
+		84F236EA1FFEA521008F5026 /* ROBarcodeScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ROBarcodeScannerViewController.swift; sourceTree = "<group>"; };
+		84F236EC1FFEA529008F5026 /* ROBarcodeScanner.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ROBarcodeScanner.storyboard; sourceTree = "<group>"; };
+		84F236ED1FFEACB3008F5026 /* ScannViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannViewController.swift; sourceTree = "<group>"; };
+		B5B3B924C7DAFF58AAF91664 /* Pods_walmartScan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_walmartScan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDFDFA3E641CBC4437A76261 /* Pods-walmartScan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walmartScan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-walmartScan/Pods-walmartScan.debug.xcconfig"; sourceTree = "<group>"; };
+		E5E008E21E1D7DAFA52A6CB8 /* Pods-walmartScan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walmartScan.release.xcconfig"; path = "Pods/Target Support Files/Pods-walmartScan/Pods-walmartScan.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D9DEA244FA103E5801B728D /* Pods_walmartScan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,9 +116,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20FC5FF73D17327ABF6DAFE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDFDFA3E641CBC4437A76261 /* Pods-walmartScan.debug.xcconfig */,
+				E5E008E21E1D7DAFA52A6CB8 /* Pods-walmartScan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		73CC0C50D8300690B2142576 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5B3B924C7DAFF58AAF91664 /* Pods_walmartScan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8423445C1FF3EF790003658E /* views */ = {
 			isa = PBXGroup;
 			children = (
+				84F236EC1FFEA529008F5026 /* ROBarcodeScanner.storyboard */,
+				84F236EA1FFEA521008F5026 /* ROBarcodeScannerViewController.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -116,7 +145,7 @@
 		8423445D1FF3EFC60003658E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				844836061FF54EC300AB9677 /* menuViewController.swift */,
+				844836061FF54EC300AB9677 /* MenuViewController.swift */,
 				8478FA821FE4563900C7F012 /* HomeViewController.swift */,
 				8478FA861FE456A600C7F012 /* LoginRutViewController.swift */,
 				842FF8AA1FE41E67003973ED /* LoginViewController.swift */,
@@ -124,8 +153,9 @@
 				8423445E1FF3F0520003658E /* DemoContenido.swift */,
 				844836081FF54F4D00AB9677 /* MenuCell.swift */,
 				844836101FF5559000AB9677 /* MessageViewController.swift */,
-				844836121FF5632800AB9677 /* viewController.swift */,
+				844836121FF5632800AB9677 /* HomeController.swift */,
 				844836141FF5651500AB9677 /* PreguntasViewController.swift */,
+				84F236ED1FFEACB3008F5026 /* ScannViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -145,6 +175,8 @@
 				844AE1451FE401B700C6583B /* walmartScanTests */,
 				844AE1501FE401B700C6583B /* walmartScanUITests */,
 				844AE12F1FE401B700C6583B /* Products */,
+				20FC5FF73D17327ABF6DAFE1 /* Pods */,
+				73CC0C50D8300690B2142576 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -214,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 844AE1561FE401B700C6583B /* Build configuration list for PBXNativeTarget "walmartScan" */;
 			buildPhases = (
+				AE69E12916154AC6DAA46F97 /* [CP] Check Pods Manifest.lock */,
 				844AE12A1FE401B700C6583B /* Sources */,
 				844AE12B1FE401B700C6583B /* Frameworks */,
 				844AE12C1FE401B700C6583B /* Resources */,
+				7D57F086510267CA25CF43AD /* [CP] Embed Pods Frameworks */,
+				735A155197D538BCD9027729 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -338,13 +373,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		735A155197D538BCD9027729 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-walmartScan/Pods-walmartScan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D57F086510267CA25CF43AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-walmartScan/Pods-walmartScan-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BarcodeScanner/BarcodeScanner.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BarcodeScanner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-walmartScan/Pods-walmartScan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE69E12916154AC6DAA46F97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-walmartScan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		844AE12A1FE401B700C6583B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				844836151FF5651500AB9677 /* PreguntasViewController.swift in Sources */,
-				844836131FF5632900AB9677 /* viewController.swift in Sources */,
+				844836131FF5632900AB9677 /* HomeController.swift in Sources */,
 				8478FA831FE4563900C7F012 /* HomeViewController.swift in Sources */,
 				842FF8AB1FE41E67003973ED /* LoginViewController.swift in Sources */,
 				844836091FF54F4D00AB9677 /* MenuCell.swift in Sources */,
@@ -352,12 +443,14 @@
 				8478FA871FE456A600C7F012 /* LoginRutViewController.swift in Sources */,
 				844AE1341FE401B700C6583B /* ViewController.swift in Sources */,
 				844836111FF5559000AB9677 /* MessageViewController.swift in Sources */,
-				844836071FF54EC300AB9677 /* menuViewController.swift in Sources */,
+				84F236EB1FFEA521008F5026 /* ROBarcodeScannerViewController.swift in Sources */,
+				844836071FF54EC300AB9677 /* MenuViewController.swift in Sources */,
 				8478FA851FE4566000C7F012 /* TerminosCondicionesView.swift in Sources */,
 				8423445F1FF3F0520003658E /* DemoContenido.swift in Sources */,
 				844836051FF54A0500AB9677 /* SWRevealViewController.m in Sources */,
 				844AE1321FE401B700C6583B /* AppDelegate.swift in Sources */,
 				842344611FF415110003658E /* Constants.swift in Sources */,
+				84F236EE1FFEACB3008F5026 /* ScannViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,13 +614,16 @@
 		};
 		844AE1571FE401B700C6583B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDFDFA3E641CBC4437A76261 /* Pods-walmartScan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RG8RN37MDB;
 				INFOPLIST_FILE = walmartScan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bild.walmartScan;
+				PRODUCT_BUNDLE_IDENTIFIER = cl.walmartchile.scan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "walmartScan/walmartScan-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -538,13 +634,16 @@
 		};
 		844AE1581FE401B700C6583B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E008E21E1D7DAFA52A6CB8 /* Pods-walmartScan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RG8RN37MDB;
 				INFOPLIST_FILE = walmartScan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bild.walmartScan;
+				PRODUCT_BUNDLE_IDENTIFIER = cl.walmartchile.scan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "walmartScan/walmartScan-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
